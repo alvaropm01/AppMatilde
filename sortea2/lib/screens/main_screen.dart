@@ -147,6 +147,7 @@ class _ShowParticipants extends StatelessWidget {
                               height: 25,
                               width: 37,
                               child: TextFormField(
+                                keyboardType: TextInputType.number,
                                 textAlign: TextAlign.center,
                                 textAlignVertical: TextAlignVertical.center,
                                 decoration: InputDecoration(
